@@ -1,0 +1,22 @@
+# Install Netlify CLI
+npm install -g netlify-cli
+
+# Login to Netlify
+netlify login
+
+# Initialize Netlify in the project folder
+netlify init
+
+# Link Netlify to your GitHub repository
+netlify link
+
+# Deploy the project to Netlify
+netlify deploy --prod
+
+# Add custom domain
+enetlify domains:add iacontents.com
+
+# Set environment variables
+netlify env:set SENDGRID_USERNAME your_username
+netlify env:set SENDGRID_API_KEY your_api_key
+netlify env:set PORT 5000
